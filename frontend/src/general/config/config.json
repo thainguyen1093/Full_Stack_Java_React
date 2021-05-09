@@ -1,0 +1,39 @@
+{
+  "backEnd": {
+    "domain": "http://localhost",
+    "port": 8080
+  },
+  "path": {
+    "prefix": "",
+    "auth": {
+      "login": "/api/login",
+      "logout": "/logout"
+    },
+    "image": {
+      "name": "/image",
+      "user": "/user",
+      "product": "/product",
+      "display": "/display",
+      "download": "/download"
+    },
+    "user": "/user",
+    "forgotPassword": {
+      "name": "/forgotPassword",
+      "findByUsername": "/findByUsername",
+      "sendCode": "/sendCode",
+      "verifyCode": "/verifyCode",
+      "newPassword": "/newPassword"
+    },
+    "product": "/product"
+  },
+  "allowMethod": [
+    "POST",
+    "PUT",
+    "GET",
+    "DELETE"
+  ],
+  "allowConsoleLog": true,
+  "cheat": {
+    "isAuth": false
+  }
+}

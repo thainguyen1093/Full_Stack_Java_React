@@ -1,0 +1,20 @@
+
+# Backend + Frontend
+**/build/**
+
+# Frontend
+**/node_modules/**
+
+# Git
+.git
+.gitignore
+
+# Mark Down file
+*.md
+
+# IntelliJ
+**/.idea/**
+
+# Mac folder
+**/.DS_Store/**
+

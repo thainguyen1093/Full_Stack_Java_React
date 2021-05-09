@@ -1,0 +1,6 @@
+export let apiStatus = {
+  NO_LOADING: "NO_LOADING",
+  LOADING: "LOADING",
+  SUCCEEDED: "SUCCEEDED",
+  FAILED: "FAILED"
+};

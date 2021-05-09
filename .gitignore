@@ -1,0 +1,17 @@
+
+# Backend + Frontend
+**/build/**
+
+
+# Frontend
+**/node_modules/**
+
+
+# IntelliJ
+**/.idea/**
+
+
+# Mac folder
+**/.DS_Store/**
+**/.DS_Store
+.DS_Store

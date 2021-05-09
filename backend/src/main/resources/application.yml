@@ -1,0 +1,58 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/java_react?serverTimezone=UTC
+    username: root
+    password: root
+  #mail config
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: asdproject287@gmail.com
+    password: ASDProject123
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  servlet:
+    multipart:
+      enabled: true
+mail:
+  smtp:
+    debug: true
+
+  # logging sql query string
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+# logging parameters for sql string
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        type:
+#          descriptor:
+#            sql:
+#              BasicBinder: TRACE
+
+# below is custom config in project
+project:
+  app:
+    jwtSecretKey: jwtPrivateKey
+    jwtExpirationMs: 31536000000 # 1 year
+
+    file:
+      path:
+#        root: /app/file
+        root: /Users/thainguyen/Desktop/images/data
+        admin: /admin
+        user: /user
+        image: /image
+        product: /product
+
+
+
